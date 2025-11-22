@@ -30,7 +30,7 @@ export default function Hero() {
           <div className="w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-white shadow-2xl overflow-hidden bg-white/20 backdrop-blur-md">
             
             <img
-              src="myimage"
+              src={myimage}
               alt="Yash Gupta"
               className="w-full h-full object-cover"
             />
